@@ -29,7 +29,6 @@ jobs:
           name: trivy-results
           path: trivy-results.sarif
 
-
   image_scan:
      name: Build Image and Run Image Scan
      runs-on: ubuntu-latest
